@@ -1,0 +1,12 @@
+# Core dependencies
+gradio==5.23.3
+cohere==5.14.2
+python-dotenv==1.1.0
+pdfplumber==0.11.6
+
+# PDF processing dependencies (required by pdfplumber)
+Pillow==11.1.0
+pdfminer.six==20250327
+
+# Optional but recommended for stability
+numpy==2.2.4

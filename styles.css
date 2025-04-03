@@ -1,0 +1,379 @@
+:root {
+    /* Light Mode */
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --heading-color: #222222;
+    --primary-color: #3498db;
+    --nav-bg: #2c3e50;
+    --nav-text: #ffffff;
+    --card-bg: #f8f9fa;
+    --card-text: #333333;
+    --link-color: #1a73e8;
+    --input-text-color: #333333; /* Text color for inputs */
+    
+    /* Dark Mode */
+    --dark-bg-color: #121212;
+    --dark-text-color: #ffffff;
+    --dark-heading-color: #f0f0f0;
+    --dark-primary-color: #1e88e5;
+    --dark-nav-bg: #1a1a1a;
+    --dark-card-bg: #2d2d2d;
+    --dark-card-text: #ffffff;
+    --dark-link-color: #8ab4f8;
+    --dark-input-text-color: #333333; /* Keeps original text color */
+}
+
+/* Base Styles */
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: all 0.3s ease;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--heading-color);
+}
+
+a {
+    color: var(--link-color);
+}
+
+/* Navigation */
+nav {
+    background: var(--nav-bg);
+}
+nav a {
+    color: var(--nav-text) !important;
+}
+
+/* Cards/Skills */
+.skill {
+    background: var(--card-bg);
+    color: var(--card-text);
+}
+
+/* Dark Mode Overrides */
+.dark-mode {
+    --bg-color: var(--dark-bg-color);
+    --text-color: var(--dark-text-color);
+    --heading-color: var(--dark-heading-color);
+    --primary-color: var(--dark-primary-color);
+    --nav-bg: var(--dark-nav-bg);
+    --card-bg: var(--dark-card-bg);
+    --card-text: var(--dark-text-color);
+    --link-color: var(--dark-link-color);
+
+    /* Force white text for most elements */
+    *:not(input, textarea, select, .keep-original-color) {
+        color: var(--dark-text-color) !important;
+    }
+
+    /* Text inputs keep original text color */
+    input, textarea, select {
+        color: var(--input-text-color) !important;
+        background-color: #2d2d2d;
+        border-color: #444;
+    }
+    
+    /* Buttons */
+    .btn {
+        background-color: var(--dark-primary-color);
+        color: white !important;
+    }
+    
+    /* Links */
+    a:hover {
+        color: var(--dark-primary-color) !important;
+    }
+}
+
+/* Add to your existing CSS */
+.skill {
+    /* Medium blue background */
+    background-color: #4a89dc;  /* Professional medium blue */
+    
+    /* Text styling */
+    color: black;  /* White text for contrast */
+    font-weight: 500;  /* Medium font weight */
+    text-align: center;
+    
+    /* Box styling */
+    padding: 12px 20px;
+    border-radius: 6px;
+    margin: 5px;
+    display: inline-block;
+    
+    /* Visual effects */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    
+    /* Ensure text stays on single line */
+    white-space: nowrap;
+}
+
+/* Hover effect */
+.skill:hover {
+    background-color: #5d9cec;  /* Lighter blue on hover */
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* For the longer skill item (Theory of Computation) */
+.skills-grid div.skill {
+    white-space: normal;  /* Allow text wrapping */
+    text-align: left;
+    display: block;  /* Make it full width */
+    margin-bottom: 10px;
+}
+
+/* Dark mode adjustment */
+.dark-mode .skill {
+    background-color: #3b7dd8;  /* Slightly darker blue */
+}
+
+.dark-mode .skill:hover {
+    background-color: #1364cf;
+}
+/* Introduction Section */
+.intro-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profile-image {
+    flex: 1;
+}
+
+.profile-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro-text {
+    flex: 1;
+    text-align: left;
+}
+
+.intro-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.intro-text h2 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.intro-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .intro-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .intro-text {
+        text-align: center;
+    }
+    
+    .profile-image img {
+        max-width: 250px;
+    }
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+nav {
+    background: #2c3e50;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Navigation Bar Hover Effects */
+nav ul li a {
+    position: relative;
+    padding: 8px 16px;
+    transition: all 0.3s ease;
+    color: white;
+  }
+  
+  /* Underline Animation */
+  nav ul li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    background-color: #3498db;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+  }
+  
+  nav ul li a:hover {
+    color: #3498db;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  nav ul li a:hover::after {
+    width: 80%;
+  }
+  
+  /* Active Tab Highlight */
+  nav ul li a.active {
+    color: #3498db;
+    font-weight: bold;
+  }
+  
+  nav ul li a.active::after {
+    width: 80%;
+    background-color: #3498db;
+  }
+
+.section {
+    padding: 4rem 2rem;
+    min-height: 100vh;
+    text-align: center;
+}
+
+/* Skills Section */
+.skills-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.skills-category {
+    margin-bottom: 40px;
+}
+
+.category-title {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #3498db;
+    display: inline-block;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.skill {
+    background: #f8f9fa;
+    padding: 12px 15px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.skill:hover {
+    background: #e9ecef;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .skills-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+    
+    .category-title {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Chatbot Container */
+.chatbot-container {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    background: #ef1717;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+.btn:hover {
+    background-color: #cb0606; /* Darker blue */
+    color: white !important; /* Ensures text stays white */
+}
+.dark-mode .btn {
+    background-color: var(--dark-primary-color); /* Dark mode blue */
+    color: white !important;
+}
+
+/* Dark mode hover */
+.dark-mode .btn:hover {
+    background-color: #1565c0; /* Slightly darker blue */
+    color: white !important; /* Explicitly keep text white */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .skills-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.contact-links a:hover {
+    color: #1a4b8e; /* Dark blue for text */
+}

@@ -1,0 +1,61 @@
+Debabrata Chandra
+Indian Institute of
+UG (III Year II Semester)
+Technology
+B.Tech. (Mechanical Engineering)
+Roorkee
+Contact No: 9818545003
+Email: debabrata_c@me.iitr.ac.in
+Registration No: 22113042/2025 VERIFIED
+Area of Interest
+Problem solving, ML,DL and Data analysis
+Education
+CGPA/
+Year Degree/Examination Institution/Board
+Percentage
+2024 B.Tech. 3rd Year Indian Institute of Technology, Roorkee 9.101
+2022 Intermediate (Class XII) Modern Vidya Niketan Sr Sec Sch Sec 17, Fbd, Hry (CBSE) 95.40 %
+2020 Matriculate (Class X) Modern Vidya Niketan Sr Sec Sch Sec 17, Fbd, Hry (CBSE) 98.00 %
+Internships
+Winter Internship | Acmegrade January 2024 - March 2024
+• Pre-processed the data, analyzed the input columns and developed a Random Forest model through the SMOTE
+technique to handle imbalanced datasets to detect fraudulent credit card transactions.
+• Fine-tuned the hyperparameters and evaluated the model using key metrics, achieving an 85% precision and 80% recall.
+Projects
+Stock Sentiment Analysis Using Machine Learning | Finance Club, IIT Roorkee May 2024 - June 2024
+• Web-scraped Google news headlines, pre-processed the text and converted it into vectors using GloVe embeddings.
+• The vectors obtained were used to train LSTM model which predicted if the news headlines depicted a positive or
+negative sentiment and based on it predicted if the stock depicts a buy or sell signal, achieving 67% accuracy.
+• Obtained a portfolio value of $15,600.48 , sharpe ratio of 1.70 , -5.54 maximum drawdown and a total return of 5.6%.
+Duplicate Question Pair Detection | DOMS, IIT Roorkee October 2024 - November 2024
+• Designed a logistic regression model with TF-IDF and feature engineering on 40,000 question pairs to detect duplicates.
+• Applied PCA to reduce dimension to 2937 , achieving an accuracy and precision of 86% on the test dataset.
+Plastic Waste Management System | MIED, IIT Roorkee August 2024 - November 2024
+• Built a C++ algorithm to optimize recycled plastic allocation using vendor capacity, dispatch timing, and delivery dates.
+• Proposed to build a portal for communication between companies and recycling vendors and integrated incentive system
+to boost recycling.
+Mathematical Modelling of SortPuz (water sort puzzle) | DOMS, IIT Roorkee January 2025 - Present
+• Developing a recursion-based algorithm in C++ to play the water sort puzzle in the minimum number of steps.
+Awards / Scholarships / Academic Achievements
+• Secured AIR- 6512 in JEE ADVANCED 2022
+• Secured AIR- 7155 in JEE MAINS 2022
+• Secured AIR- 3946 in SX category in KVPY Aptitude Test 2021
+• Achieved Global Rank- 4346 in Codeforces CodeTON Round 8 (Div. 1+ Div.2)
+• Achieved Global Rank- 666 in Codechef Starters 127 Division 3
+• Achieved Rank 22 in Graphs contest held by AlgoUniversity in April 2024
+Skills
+Computer languages Python, C++, SQL
+Software Packages NumPy, Pandas, Seaborn, Matplotlib, Tensorflow, Scikit-learn, OpenCV, LangChain
+Additional Courses IBM-322 (Analytics for Managerial Decision Making)
+Minor/Honors Courses CSC-202 (Theory of Computation)
+Languages Known English, Hindi and Bengali
+Positions of Responsibility & Extra Curriculars
+Competitive Programming | Online Judges: August 2023 - Present
+• Codeforces: Max Rating- 1226 (handle : debabratachandra04)
+• Codechef: Max Rating- 1614 (handle : debabrata04)
+Coordinator | Cognizance -2024 March 2024
+• Coordinated DSA workshop in collaboration with Geeks for Geeks, attended by 100+ students from various colleges.
+• Coordinated Thermaoracle competition at Cognizance (Tech Fest of IIT Roorkee), participated by 20+ college teams.
+Department Placement Representative | Placement and Internship Cell, IIT Roorkee September 2024 - Present
+• Serving as the main contact between 150 batchmates and the Placement Cell, sharing internship opportunities,
+addressing inquiries, and resolving issues.
