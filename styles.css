@@ -377,3 +377,54 @@ nav ul li a {
 .contact-links a:hover {
     color: #1a4b8e; /* Dark blue for text */
 }
+
+/* Projects Section */
+.project-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-details {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 15px;
+}
+
+.project-details li {
+    margin-bottom: 10px;
+    padding-left: 30px;
+    position: relative;
+    line-height: 1.6;
+}
+
+.project-details li i {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    color: #4a89dc;
+    width: 20px;
+    text-align: center;
+}
+
+.nested-list {
+    list-style-type: disc;
+    padding-left: 25px;
+    margin-top: 8px;
+}
+
+/* Dark Mode Support */
+.dark-mode .project-card {
+    background: rgba(30, 30, 30, 0.8);
+}
+
+.dark-mode .project-details li i {
+    color: #5d9cec;
+}

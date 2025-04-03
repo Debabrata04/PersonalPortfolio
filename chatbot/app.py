@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import gradio as gr
 from resume_parser import extract_resume_text
 import cohere
@@ -34,7 +35,7 @@ def ask_resume(question):
             model='command',
             prompt=prompt,
             max_tokens=300,
-            temperature=0.3,
+            temperature=0.1,
             k=0,
             stop_sequences=[],
             return_likelihoods='NONE'
