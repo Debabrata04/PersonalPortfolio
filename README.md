@@ -34,11 +34,9 @@ python chatbot/app.py  # Starts the AI chatbot backend
 Open index.html in a browser or use a local server (e.g., VS Code’s Live Server).
 
 ## **Tech Stack** 💻
-## Frontend: HTML, CSS, JavaScript
-
-## Chatbot: Python (Cohere LLM)
-
-## Hosting: Netlify(frontend) and Render(Backend)
+### Frontend: HTML, CSS, JavaScript
+### Chatbot: Python (Cohere LLM)
+### Hosting: Netlify(frontend) and Render(Backend)
 
 
 ## License 📄
