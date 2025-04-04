@@ -38,7 +38,7 @@ Open index.html in a browser or use a local server (e.g., VS Code’s Live Serve
 ## **Tech Stack** 💻
 ### Frontend: HTML, CSS, JavaScript
 ### Chatbot: Python (Cohere LLM)
-### Hosting: Netlify(frontend) and Render(Backend)
+### Hosting: Netlify(Frontend) and Render(Backend)
 
 ---
 
