@@ -1,7 +1,7 @@
 # **Personal Portfolio** 🚀  
 
 ![GitHub](https://img.shields.io/github/license/Debabrata04/PersonalPortfolio?color=blue)  
-[![Netlify Status](https://api.netlify.com/api/v1/badges/marvelous-unicorn-bf8526/deploy-status)](https://app.netlify.com/sites/marvelous-unicorn-bf8526)
+![Netlify](https://img.shields.io/netlify/e8ef642b-41d9-4300-9a3b-76aee8d55f82?label=Netlify%20Deployment)
 
 A dynamic **Personal Portfolio** showcasing my skills, achievements, and resume, integrated with an **AI Chatbot** to answer questions about my professional background.  
 
