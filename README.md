@@ -26,9 +26,9 @@ cd PersonalPortfolio
 ### **2. Add Your Resume**
 Place your resume.pdf in the project root.
 
-### **3. Run the Chatbot (Optional)**
+### **3. Run the Chatbot**
 ```bash```
-python chatbot/app.py  # Starts the AI chatbot backend  
+python chatbot/app.py 
 
 ### **4. Launch the Portfolio**
 Open index.html in a browser or use a local server (e.g., VS Code’s Live Server).
