@@ -20,11 +20,11 @@ A dynamic **Personal Portfolio** showcasing my skills, achievements, and resume,
 
 ### **1. Clone the Repository**  
 ```bash```
-git clone https://github.com/your-username/personal-portfolio.git  
-cd personal-portfolio  
+git clone https://github.com/debabrata04/PersonalPortfolio.git  
+cd PersonalPortfolio  
 
 ### **2. Add Your Resume**
-Place your resume.pdf (or similar) in the project root.
+Place your resume.pdf in the project root.
 
 ### **3. Run the Chatbot (Optional)**
 ```bash```
