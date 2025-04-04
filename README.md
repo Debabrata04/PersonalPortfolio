@@ -5,7 +5,7 @@
 
 A dynamic **Personal Portfolio** showcasing my skills, achievements, and resume, integrated with an **AI Chatbot** to answer questions about my professional background.  
 
-🔗 **Live Demo:** [https://marvelous-unicorn-bf8526.netlify.app/](https://marvelous-unicorn-bf8526.netlify.app/)  
+🔗 **Live Demo:** [https://debabratachandraportfolio.netlify.app/](https://debabratachandraportfolio.netlify.app/)  
 
 ---
 
