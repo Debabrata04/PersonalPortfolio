@@ -19,7 +19,7 @@ A dynamic **Personal Portfolio** showcasing my skills, achievements, and resume,
 ## **Installation & Local Setup** ⚙️  
 
 ### **1. Clone the Repository**  
-```bash  ```
+```bash```
 git clone https://github.com/your-username/personal-portfolio.git  
 cd personal-portfolio  
 
