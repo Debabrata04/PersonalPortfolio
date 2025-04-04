@@ -1,6 +1,6 @@
 # **Personal Portfolio** 🚀  
 
-![GitHub](https://img.shields.io/github/license/your-username/personal-portfolio?color=blue)  
+![GitHub](https://img.shields.io/github/license/Debabrata04/PersonalPortfolio?color=blue)  
 ![Netlify](https://img.shields.io/netlify/your-deploy-id?label=Netlify%20Deployment)  
 
 A dynamic **Personal Portfolio** showcasing my skills, achievements, and resume, integrated with an **AI Chatbot** to answer questions about my professional background.  
