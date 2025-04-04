@@ -12,7 +12,7 @@ A dynamic **Personal Portfolio** showcasing my skills, achievements, and resume,
 ## **Features** ✨  
 ✅ **Interactive Resume** – View my professional journey.  
 ✅ **Skills & Projects** – Highlights of my expertise and work.  
-✅ **AI-Powered Chatbot** – Ask questions about my resume! *(Powered by Python/LLM)*  
+✅ **AI-Powered Chatbot** – Ask questions about my resume! *(Powered by Cohere LLM)*  
 
 ---
 
